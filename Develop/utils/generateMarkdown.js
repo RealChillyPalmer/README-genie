@@ -11,10 +11,49 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+const userReadme = ({ projTitle, projDesc, installInstruct, usageInfo, projContrib, testDirects, Selection, userGhub, userEmail }) =>
 
-`;
-}
+    `# ${projTitle}
+   
+       //*Badge
+   
+   A brief description of your Project:
+   
+   ## ${projDesc}
+   
+   Installation Instructions/Dependencies:
+   
+    ## ${installInstruct}
+   
+   Usage Info:
+   
+    ## ${usageInfo}
+   
+   How to run the program:
+   
+    ### ${testDirects}
+   
+   ## License:
+   
+    ### This project is licensed under the ${Selection} License
+   
+   ## Acknowledgments
+   
+   ${projContrib}
+
+   ## Questions
+
+     #### My GitHub username is: ${userGhub}
+
+     #### Please contact me at : ${userEmail}
+   
+   `
+  return `# ${data.title}       `
+
+;
+
 
 export default generateMarkdown;
+
+
+
