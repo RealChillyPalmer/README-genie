@@ -36,8 +36,8 @@ inquirer
         type: 'input',
         message: 'What are the Test Instructions for your project?',
         name: 'testDirects'
-    },
-    
+    }
+]),
     await Selection({
     message: 'Which License is your project using?',
     choices: [
@@ -223,29 +223,31 @@ inquirer
         },
 
     ],
+})
 
-}),
-    inquirer.prompt([
-        {
-            type: 'input',
-            message: 'What is your Github Username?',
-            name: 'userGHub'
-        },
-        {
-            type: 'input',
-            message: 'What is your Email?',
-            name: 'userEmail'
-        }
-    ])
-])
+// })
+//     inquirer.prompt([
+//         {
+//             type: 'input',
+//             message: 'What is your Github Username?',
+//             name: 'userGHub'
+//         },
+//         {
+//             type: 'input',
+//             message: 'What is your Email?',
+//             name: 'userEmail'
+//         }
+//     ])
 .then((projAnswers) => {
-    const projAnswers = userReadme(projAnswers);
+    const readmeAnswers = JSON.stringify(generateMarkdown(projAnswers));
+}
+);
+// // TODO: Create a function to write README file
 
-// TODO: Create a function to write README file
-fs.writeToFile(`${projAnswers.projTitle}`.md , projAnswers, (err) =>
-    err ? console.log(err) : console.log("Your README is My Command!")
-); 
-});
+// fs.writeToFile(`${projAnswers.projTitle}.md` , readmeAnswers, (err) =>
+//     err ? console.log(err) : console.log("Your README is My Command!")
+// );
+// });
 
 
 
