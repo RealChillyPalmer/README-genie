@@ -17,38 +17,38 @@ const generateMarkdown = ({ projTitle, projDesc, installInstruct, usageInfo, pro
    
        //*Badge
    
-   A brief description of your Project:
-   
-   ## ${projDesc}
-   
-   Installation Instructions/Dependencies:
-   
-    ## ${installInstruct}
-   
-   Usage Info:
-   
-    ## ${usageInfo}
-   
-   How to run the program:
-   
-    ### ${testDirects}
-   
-   ## License:
-   
-    ### This project is licensed under the ${Selection} License
-   
-   ## Acknowledgments
-   
-   ### ${projContrib}
+A brief description of your Project:
 
-   ## Questions
+## ${projDesc}
 
-     #### My GitHub username is: ${userGhub}
+Installation Instructions/Dependencies:
 
-     #### Please contact me at : ${userEmail}
+## ${installInstruct}
+
+Usage Info:
+
+## ${usageInfo}
+
+How to run the program:
+
+### ${testDirects}
+
+## License:
+
+### This project is licensed under the ${Selection} License
+
+## Acknowledgments
+
+### ${projContrib}
+
+## Questions
+
+  #### My GitHub username is: ${userGhub}
+
+  #### Please contact me at : ${userEmail}
    
    `
-  return `# ${data.title}       `
+  
 
 ;
 
