@@ -1,56 +1,50 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+const generateMarkdown = ({ projTitle, projDesc, installInstruct, usageInfo, projContrib, testDirects, userLicense, userAk, userGHub, userEmail }) =>
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-const generateMarkdown = ({ projTitle, projDesc, installInstruct, usageInfo, projContrib, testDirects, Selection, userGhub, userEmail }) =>
-
-    `# ${projTitle}
+ `# ${projTitle}
    
-       //*Badge
-   
-A brief description of your Project:
+![${userLicense}](https://raster.shields.io/badge/${userLicense}-green)
 
-## ${projDesc}
+## A brief description of your Project:
 
-Installation Instructions/Dependencies:
+   #### ${projDesc}
 
-## ${installInstruct}
+## Installation Instructions/Dependencies:
 
-Usage Info:
+   #### ${installInstruct}
 
-## ${usageInfo}
+## Usage Info:
 
-How to run the program:
+   #### ${usageInfo}
 
-### ${testDirects}
+## How to run the program:
+
+   #### ${testDirects}
 
 ## License:
 
-### This project is licensed under the ${Selection} License
+   #### This project is licensed under the ${userLicense} License
 
 ## Acknowledgments
 
-### ${projContrib}
+   #### ${userAk}
 
-## Questions
+## Contribution Guidelines:
 
-  #### My GitHub username is: ${userGhub}
+   #### ${projContrib}
 
-  #### Please contact me at : ${userEmail}
+## Questions?
+
+  ##### My GitHub username is: ${userGHub}
+
+  #### or
+
+  ##### Please contact me at : ${userEmail}
    
    `
-  
-
 ;
+
+
 
 
 export default generateMarkdown;

@@ -50,42 +50,42 @@ inquirer
                 },
                 {
                     name: 'AFL-3.0',
-                    value: 'AFL-3.0',
+                    value: 'AFL3.0',
                     description: 'Academic Free License v3.0',
                 },
                 {
                     name: 'Apache-2.0',
-                    value: 'Apache-2.0',
+                    value: 'Apache2.0',
                     description: 'Apache license 2.0',
                 },
                 {
                     name: 'Artistic-2.0',
-                    value: 'Artistic-2.0',
+                    value: 'Artistic2.0',
                     description: 'Artistic license 2.0',
                 },
                 {
                     name: 'BSL-1.0',
-                    value: 'BSL-1.0',
+                    value: 'BSL1.0',
                     description: 'Boost Software License 1.0',
                 },
                 {
                     name: 'BSD-2-Clause',
-                    value: 'BSD-2-Clause',
+                    value: 'BSD2Clause',
                     description: 'BSD 2-clause "Simplified" license',
                 },
                 {
                     name: 'BSD-3-Clause',
-                    value: 'BSD-3-Clause',
+                    value: 'BSD3Clause',
                     description: 'BSD 3-clause "New" or "Revised" license',
                 },
                 {
                     name: 'BSD-3-Clause-Clear',
-                    value: 'BSD-3-Clause-Clear',
+                    value: 'BSD3ClauseClear',
                     description: 'BSD 3-clause Clear license',
                 },
                 {
                     name: 'BSD-4-Clause',
-                    value: 'BSD-4-Clause',
+                    value: 'BSD4Clause',
                     description: 'BSD 4-clause "Original" or "Old" license',
                 },
                 {
@@ -100,17 +100,17 @@ inquirer
                 },
                 {
                     name: 'CC0-1.0',
-                    value: 'CC0-1.0',
+                    value: 'CC01.0',
                     description: 'Creative Commons Zero v1.0 Universal',
                 },
                 {
                     name: 'CC-BY-4.0',
-                    value: 'CC-BY-4.0',
+                    value: 'CCBY4.0',
                     description: 'Creative Commons Attribution 4.0',
                 },
                 {
                     name: 'CC-BY-SA-4.0',
-                    value: 'CC-BY-SA-4.0',
+                    value: 'CCBYSA4.0',
                     description: 'Creative Commons Attribution ShareAlike 4.0',
                 },
                 {
@@ -120,22 +120,22 @@ inquirer
                 },
                 {
                     name: 'ECL-2.0',
-                    value: 'ECL-2.0',
+                    value: 'ECL2.0',
                     description: 'Educational Community License v2.0',
                 },
                 {
                     name: 'EPL-1.0',
-                    value: 'EPL-1.0',
+                    value: 'EPL1.0',
                     description: 'Eclipse Public License 1.0',
                 },
                 {
                     name: 'EPL-2.0',
-                    value: 'EPL-2.0',
+                    value: 'EPL2.0',
                     description: 'Eclipse Public License 2.0',
                 },
                 {
                     name: 'AGPL-3.0',
-                    value: 'AGPL-3.0',
+                    value: 'AGPL3.0',
                     description: 'GNU Affero General Public License v3.0',
                 },
                 {
@@ -145,12 +145,12 @@ inquirer
                 },
                 {
                     name: 'GPL-2.0',
-                    value: 'GPL-2.0',
+                    value: 'GPL2.0',
                     description: 'GNU General Public License v2.0',
                 },
                 {
                     name: 'GPL-3.0',
-                    value: 'GPL-3.0',
+                    value: 'GPL3.0',
                     description: 'GNU General Public License v3.0',
                 },
                 {
@@ -160,12 +160,12 @@ inquirer
                 },
                 {
                     name: 'LGPL-2.1',
-                    value: 'LGPL-2.1',
+                    value: 'LGPL2.1',
                     description: 'GNU Lesser General Public License v2.1',
                 },
                 {
                     name: 'LGPL-3.0',
-                    value: 'LGPL-3.0',
+                    value: 'LGPL3.0',
                     description: 'GNU Lesser General Public License v3.0',
                 },
                 {
@@ -175,12 +175,12 @@ inquirer
                 },
                 {
                     name: 'LPPL-1.3c',
-                    value: 'LPPL-1.3c',
+                    value: 'LPPL1.3c',
                     description: 'LaTeX Project Public License v1.3c',
                 },
                 {
                     name: 'MS-PL',
-                    value: 'MS-PL',
+                    value: 'MSPL',
                     description: 'Microsoft Public License',
                 },
                 {
@@ -190,12 +190,12 @@ inquirer
                 },
                 {
                     name: 'MPL-2.0',
-                    value: 'MPL-2.0',
+                    value: 'MPL2.0',
                     description: 'Mozilla Public License 2.0',
                 },
                 {
                     name: 'OSL-3.0',
-                    value: 'OSL-3.0',
+                    value: 'OSL3.0',
                     description: 'Open Software License 3.0',
                 },
                 {
@@ -205,7 +205,7 @@ inquirer
                 },
                 {
                     name: 'OFL-1.1',
-                    value: 'OFL-1.1',
+                    value: 'OFL1.1',
                     description: 'SIL Open Font License 1.1',
                 },
                 {
@@ -225,6 +225,11 @@ inquirer
                 },
 
             ],
+        },
+        {
+            type: 'input',
+            message: 'Aknowledgements?',
+            name: 'userAk'
         },
         {
             type: 'input',
