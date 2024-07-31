@@ -1,7 +1,7 @@
-
 const generateMarkdown = ({ projTitle, projDesc, installInstruct, usageInfo, projContrib, testDirects, userLicense, userAk, userGHub, userEmail }) =>
 
- `# ${projTitle}
+
+`# ${projTitle}
    
 ![${userLicense}](https://raster.shields.io/badge/${userLicense}-green)
 
@@ -23,15 +23,15 @@ const generateMarkdown = ({ projTitle, projDesc, installInstruct, usageInfo, pro
 
 ## License:
 
-   #### This project is licensed under the ${userLicense} License
-
-## Acknowledgments
-
-   #### ${userAk}
+   #### This project is licensed under ${userLicense}
 
 ## Contribution Guidelines:
 
    #### ${projContrib}
+
+## Acknowledgments
+
+   #### ${userAk}
 
 ## Questions?
 
@@ -43,9 +43,6 @@ const generateMarkdown = ({ projTitle, projDesc, installInstruct, usageInfo, pro
    
    `
 ;
-
-
-
 
 export default generateMarkdown;
 

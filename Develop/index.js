@@ -1,11 +1,7 @@
-// TODO: Include packages needed for this application
 import fs from 'fs';
 import inquirer from 'inquirer';
 import generateMarkdown from './utils/generateMarkdown.js';
 
-
-
-// TODO: Create an array of questions for user input
 inquirer
     .prompt([
         {
@@ -44,8 +40,8 @@ inquirer
             message: 'Which License is your project using?',
             choices: [
                 {
-                    name: 'None',
-                    value: 'None',
+                    name: 'No License',
+                    value: 'No%20License',
                     description: 'No License',
                 },
                 {
@@ -252,20 +248,3 @@ inquirer
     }
     
     );
-// TODO: Create a function to write README file
-
-
-
-
-
-
-
-
-
-
-
-// TODO: Create a function to initialize app
-//function init() {}
-
-// Function call to initialize app
-//init();

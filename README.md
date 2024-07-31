@@ -1,6 +1,6 @@
 # README Genie
    
-![Artistic2.0](https://raster.shields.io/badge/Artistic2.0-green)
+![None](https://raster.shields.io/badge/No%20License-green)
 
 ## A brief description of your Project:
 
