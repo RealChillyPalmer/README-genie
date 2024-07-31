@@ -12,7 +12,10 @@
 
 ## Usage Info:
 
-   #### Please open develop folde in integrated terminal, then input 'node index.js' to begin application.
+   #### Please open develop folder in integrated terminal, then input 'node index.js' to begin application.
+   
+   ![Screenshot 2024-07-31 132451](https://github.com/user-attachments/assets/870049d3-4e67-4f92-8798-bfed43a6fc5f)
+
 
 ## How to run the program:
 
@@ -38,4 +41,4 @@
 
   ##### Please contact me at : highvibes.dev@gmail.com
    
-   
+  
