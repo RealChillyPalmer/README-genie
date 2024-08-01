@@ -8,22 +8,22 @@
 
 ## Installation Instructions/Dependencies:
 
-   #### Please have node installed and the inquirer dependency. (in terminal: npm i inquirer)
+   #### Make sure to have node installed,then install the inquirer dependency. (in terminal: npm i inquirer)
 
 ## Usage Info:
 
-   #### Please open develop folder in integrated terminal, then input 'node index.js' to begin application.
+   #### Open develop folder in integrated terminal, then input 'node index.js' to begin application.
    
    ![Screenshot 2024-07-31 132451](https://github.com/user-attachments/assets/870049d3-4e67-4f92-8798-bfed43a6fc5f)
 
 
 ## How to run the program:
 
-   #### To test follow run instructions with tet information
+   #### To test follow run instructions with test information
 
 ## License:
 
-   #### This project is licensed under the Artistic2.0 License
+   #### This project is licensed under No License
 
 ## Acknowledgments
 
